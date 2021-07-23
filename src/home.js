@@ -10,6 +10,7 @@ let subtextlittle = document.createElement('h3');
 subtextlittle.textContent = "Four decades and only one thing on the menu:"; 
 let subtextmain = document.createElement('h2');
 subtextmain.textContent = "authentic beef pho soup";
+subtextmain.classList.add('subtextmain')
 hero.appendChild(subtextlittle);  
 hero.appendChild(subtextmain);  
 
@@ -19,6 +20,7 @@ let hours = document.createElement('section');
 hours.classList.add('hours-section');
 let hoursheadline = document.createElement('h2');
 let hoursspecific = document.createElement('h3');
+hoursspecific.classList.add('hours-list');
 hoursheadline.textContent = "Hours";
 hoursspecific.textContent = `
 Monday: 7am-8pm

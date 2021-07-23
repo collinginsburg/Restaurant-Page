@@ -1,4 +1,4 @@
-// import './style.css';
+import './style.css';
 import landing from './landing';
 import home from './home';
 import menu from './menu';

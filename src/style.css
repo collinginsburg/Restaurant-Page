@@ -1,0 +1,173 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,700;1,700&display=swap');
+
+/* colors */
+:root{
+    --red:#FF0045;
+    --black: #000000;
+    --blue: #0056FF;
+    --lighttan: #EEE9E9;
+
+}
+.home-tab-section, .menu-tab-section, .landing-section, .contact-tab-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabbutton{
+    background-color: var(--lighttan);
+    font-family: 'Zilla Slab';
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: black 2px solid;
+    border-radius: 10%;
+    margin: 40px;
+}
+
+.tabbutton:hover, .tabbutton:focus{
+    background-color: var(--black);
+    color: white;
+    cursor: pointer;
+}
+
+/* header section */
+header{
+    display: grid;
+    width: 800px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    grid-template-rows: 1fr;
+    grid-template-columns: .5fr 3fr 1fr;
+}
+.phohoalogo{
+    width: 200px;
+}
+header h1{
+    font-size: 70pt;
+    font-family: 'Zilla Slab';
+    color: var(--red);
+    text-transform: uppercase;
+}
+
+/* home tab */
+.home-tab-section{
+    margin-top: 50px;
+}
+h2{
+    font-family: 'Zilla Slab', monospace;
+    font-style: italic;
+    font-size: 40pt;
+    color: var(--red);
+    text-align: center;
+}
+h3{
+    font-family: 'Zilla Slab', monospace;
+    font-size: 20pt;
+    color: var(--black);
+    text-align: center;
+}
+
+.hero{
+    width: 100%;
+    border-bottom: 30px dashed black;
+}
+.hero h3{
+    font-size: 40pt;
+    width: 750px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.subtextmain{
+    margin-top: 20px;
+    font-size: 60pt;
+    margin-bottom: 200px;
+}
+
+
+/* hours */
+.hours-section{
+    margin-top: 50px;
+    border-bottom: 30px dashed black;
+    width: 100%;
+}
+.hours-list{
+    font-size: 20pt;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    line-height: 40px;
+}
+/* location */
+.location-section{
+    margin-top: 100px;
+}
+p{
+    font-family: sans-serif;
+}
+/* landing section */
+.landing-section{
+    border-top: 30px dashed black;
+}
+
+
+/* menu tab section */
+.menu-tab-section{
+    margin-top: 80px;
+}

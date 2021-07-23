@@ -8,6 +8,7 @@ let header = document.createElement('header');
 // img
 import Logo from './assets/images/logo.jpg';
 const PhoLogo = new Image();
+PhoLogo.classList.add('phohoalogo');
 PhoLogo.src = Logo;
 header.appendChild(PhoLogo);
 
