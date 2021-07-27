@@ -12,7 +12,7 @@ menuitemdiv1.classList.add('menu-item');
 
 let menuitemnumber = document.createElement('div');
 menuitemnumber.classList.add('menu-item-number');
-menuitemnumber.textContent = '1';
+menuitemnumber.textContent = '1.';
 
 let menuitem = document.createElement('div');
 menuitem.classList.add('menu-item-text');
@@ -37,11 +37,11 @@ menuitemdiv1.appendChild(menuitemprice);
 
 // div for menu item 2
 let menuitemdiv2 = document.createElement('div');
-menuitemdiv2.classList.add('menu-item2');
+menuitemdiv2.classList.add('menu-item');
 
 let menuitemnumber2 = document.createElement('div');
 menuitemnumber2.classList.add('menu-item-number');
-menuitemnumber2.textContent = '2';
+menuitemnumber2.textContent = '2.';
 
 let menuitem2 = document.createElement('div');
 menuitem2.classList.add('menu-item-text');

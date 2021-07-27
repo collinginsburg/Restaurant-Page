@@ -44,6 +44,7 @@ locationaddress.textContent = "4717 El Cajon Blvd, San Diego, CA 92115";
 location.appendChild(locationaddress);
 import Map from './assets/images/PhoHoaLocation.png'; // map
 const PhoMap = new Image();
+PhoMap.classList.add('pho-location-image');
 PhoMap.src = Map;
 location.appendChild(PhoMap);
 
