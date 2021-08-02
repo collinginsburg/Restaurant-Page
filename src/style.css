@@ -59,6 +59,13 @@ body{
     --lighttan: #EEE9E9;
 
 }
+
+
+html {
+    scroll-behavior:smooth;
+  }
+
+
 .home-tab-section, .menu-tab-section, .landing-section, .contact-tab-section{
     display: flex;
     flex-direction: column;
@@ -202,6 +209,7 @@ h3{
 .menu-tab-section{
 
     margin-top: 80px;
+    margin-bottom: 150px;
     font-family: 'Zilla Slab';
     display: flex;
     flex-direction: column;
@@ -213,7 +221,14 @@ h3{
     display: grid;
     font-size: 30px;
     margin-top: 20px;
-    grid-template-columns: 30px 600px 100px;
+    grid-template-columns: 40px 600px 100px;
+}
+.menu-item-text{
+    margin-left: 10px;
+}
+.menu-item-number{
+    text-align: right;
+    /* margin-right: 10px; */
 }
 .menu-item p:last-child{
     font-family: sans-serif;
@@ -221,4 +236,16 @@ h3{
 }
 .menu-item-price{
     color: var(--blue);
+    /* display: flex; */
+    /* align-items: right; */
+}
+
+
+/* contact tab */
+.contact-tab-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.phonenumber{
+    margin-bottom: 20px;
 }
